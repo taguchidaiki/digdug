@@ -101,7 +101,7 @@ int GameTask::GameInit(void)
 
 int GameTask::GameTitle(void)
 {
-	if (IPKEYMNG.trgKey[KEY_F5])
+	if (IPKEYMNG.trgKey[KEY_SPACE])
 	{
 		gmode = M_Main;
 	}

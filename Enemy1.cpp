@@ -66,7 +66,7 @@ void Enemy1::Draw(void)
 	if(mode != ENEMY1_MODE::PUNK) IPIMGMNG.DrawAnimImage("enemy1", pos, divSize, mag, 180, turnFlag, (int)mode + (animCnt / 30) % 2, true);
 	else if (mode == ENEMY1_MODE::CRUSH) IPIMGMNG.DrawAnimImage("enemy1", pos, divSize, mag, 180, turnFlag, (int)mode, true);
 	else IPIMGMNG.DrawAnimImage("enemy1", pos, divSize, mag, 180, turnFlag, (int)mode + (animCnt / 60) % 4, true);
-	DrawBox(pos.x, pos.y, pos.x + hitSize.x, pos.y + hitSize.y, 0xffffff, false);
+	//DrawBox(pos.x, pos.y, pos.x + hitSize.x, pos.y + hitSize.y, 0xffffff, false);
 }
 
 void Enemy1::ChangeMode(int x)

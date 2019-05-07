@@ -78,7 +78,7 @@ void Player::Update(void)
 
 void Player::Draw(void)
 {
-	DrawBox(pos.x, pos.y, pos.x + (divSize.x * mag.x), pos.y + (divSize.y * mag.y), 0xffffff, false);
+	//DrawBox(pos.x, pos.y, pos.x + (divSize.x * mag.x), pos.y + (divSize.y * mag.y), 0xffffff, false);
 
 	if (mode != PLAYER_MODE::END)
 	{
